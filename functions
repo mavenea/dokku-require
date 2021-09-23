@@ -78,7 +78,7 @@ require_install_commands() {
 
       COMMAND="${COMMAND//\$APP/$APP}"
       # shellcheck disable=SC2086
-      DOKKU_CONFIG_RESTART=false dokku $COMMAND || break
+      DOKKU_CONFIG_RESTART=false set -o noglob; dokku $COMMAND || break
       let COUNT=COUNT+1
     done
   else
