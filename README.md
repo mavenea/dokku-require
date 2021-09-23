@@ -2,7 +2,8 @@
 
 A plugin which allow you to specify plugins and volumes
 required by your app.
-This is a fork which fixes an issue where the shell expands the command to file names when using custom commands that includes wildcards. Will send a PR to merge with upstream.
+
+> Important: This is a fork which fixes an issue where the shell expands the command to file names when using custom commands that includes wildcards. Will send a PR to merge with upstream soon.
 
 ## Requirements
 
