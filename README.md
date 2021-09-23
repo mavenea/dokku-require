@@ -2,6 +2,7 @@
 
 A plugin which allow you to specify plugins and volumes
 required by your app.
+This is a fork which fixes an issue where the shell expands the command to file names when using custom commands that includes wildcards. Will send a PR to merge with upstream.
 
 ## Requirements
 
@@ -11,7 +12,7 @@ required by your app.
 
 ```
 # on 0.4.x
-dokku plugin:install https://github.com/crisward/dokku-require.git require
+dokku plugin:install https://github.com/mavenea/dokku-require.git require
 ```
 
 ## Usage
